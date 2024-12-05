@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>قطعات کامپبوتر</title>
+</head>
+<body style="background-color: white">
+    <h1 style="text-align: center; background-color: orange; margin: 0; padding: 10px;"> قطعات کامپیوتر</h1>
+    <h2 style="text-align: center; background-color: orange; color: black; margin: 0; padding: 10px;">ثبت نام</h2>
+    <form method="post" style="margin: 20px;">
+        <label for="name">نام:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="family">نام خانوادگی:</label><br>
+        <input type="text" id="family" name="family"><br>
+
+        <label for="address">آدرس:</label><br>
+        <input type="text" id="address" name="address"><br>
+
+        <label for="mobile">تلفن همراه:</label><br>
+        <input type="text" id="mobile" name="mobile"><br><br>
+
+        <label>جنسیت:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">مرد</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">زن</label><br>
+      <input type="radio" id="order" name="gender" value="order">
+        <label for="order">تمایل به گفتن ندارم</label><br>
+
+        <label for="parts">قطعه مورد نظر:</label>
+        <select id="parts" name="parts">
+            <option value="cpu">سی پی یو</option>
+            <option value="gpu">کارت گرافیک</option>
+            <option value="ram">رم</option>
+            <option value="motherboard">مادربرد</option>
+          <option value="bvb">دی وی دی</option>
+          <option value="coler">خنک کننده </option>
+          <option value="cas">کیس</option>
+          <option value="hdd">هارد</option>
+          <option value="powe">پاور</option>
+        </select><br><br>
+
+        <label for="price">قیمت:</label>
+        <input type="number" id="price" name="price"><br><br>
+
+        <button type="submit">ثبت</button>
+    </form>
+</body>
+</html>
